@@ -162,7 +162,7 @@ body {
   z-index: 1;
 }
 
-.home-sci a ::before{
+.home-sci a::before{
   content: '';
   position: absolute;
   top: 0;
@@ -171,4 +171,8 @@ body {
   height: 100%;
   background: red;
   z-index: -1;
+}
+
+.home-sci a:hover::before{
+  
 }
